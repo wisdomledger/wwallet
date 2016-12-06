@@ -65,4 +65,19 @@ public class Key {
 				seed);
 	}
 
+	public BigInteger getk() {
+		return k;
+	}
+
+
+	public ECPoint getK() {
+		return K;
+	}
+
+
+	public byte[] getChainCode() {
+		return chainCode;
+	}
+
+
 }
